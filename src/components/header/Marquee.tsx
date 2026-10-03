@@ -8,11 +8,13 @@ interface Headlines {
 }
 
 const Marquee = async () => {
-	const res = await fetch("https://news-api-v2.vercel.app/api/news?limit=10");
+	const res = await fetch("https://news-api-v2.vercel.app/api/news?limit=10", {
+		next: { revalidate: 60 * 60 * 12 }, // revalidate every 12 hours
+	});
 	const data = await res.json();
 	const headlines: Headlines[] = data.data;
 	return (
-		<div className="bg-primary text-white text-sm">
+		<div className="sticky top-0 z-10 bg-primary text-white text-sm">
 			<div className="flex wrapper">
 				<div className="bg-blue-800 py-2 px-3 font-bold">সর্বশেষ</div>
 

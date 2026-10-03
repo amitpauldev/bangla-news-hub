@@ -12,3 +12,12 @@ export type NewsType = {
 	lastPublished: string;
 	source: string;
 };
+
+export type NewsSectionType = {
+	title: string;
+	curationId: string;
+	curationType: string;
+	link: null | string;
+	count: number;
+	articles: NewsType[];
+};

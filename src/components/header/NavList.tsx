@@ -16,8 +16,8 @@ const NavList = ({
 
 	return (
 		<nav className="flex items-center justify-center">
-			<ul className="flex items-center gap-6 text-sm font-medium">
-				<li className="flex items-center gap-2">
+			<ul className="flex items-center flex-wrap gap-3 sm:gap-10 text-sm font-medium">
+				<li className="flex items-center">
 					<Link
 						href="/"
 						className={`${pathname === "/" ? "text-primary" : "text-dark"} hover:text-primary`}
@@ -26,7 +26,7 @@ const NavList = ({
 					</Link>
 				</li>
 				{filteredCategories.map((category) => (
-					<li key={category.slug} className="flex items-center gap-2">
+					<li key={category.slug} className="flex items-center">
 						<Link
 							href={category.slug}
 							className={`${pathname === category.slug ? "text-primary" : "text-dark"} hover:text-primary`}

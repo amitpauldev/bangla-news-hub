@@ -17,13 +17,11 @@ const Header = async () => {
 	);
 
 	return (
-		<header className="w-full">
+		<header className="relative w-full">
 			<div className="wrapper relative py-3 flex flex-col items-center gap-4">
 				<Logo className="flex items-center justify-center" />
 				<NavList filteredCategories={filteredCategories} />
 			</div>
-
-			<Marquee />
 		</header>
 	);
 };
