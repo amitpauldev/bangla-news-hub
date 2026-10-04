@@ -31,7 +31,7 @@ const Footer = () => {
 
 								<li>
 									<a
-										href={"#নির্বাচিত খবর"}
+										href={"/"}
 										className="transition-colors hover:text-primary"
 									>
 										নির্বাচিত খবর
@@ -39,17 +39,14 @@ const Footer = () => {
 								</li>
 
 								<li>
-									<a
-										href="#বাংলাদেশ"
-										className="transition-colors hover:text-primary"
-									>
+									<a href="/" className="transition-colors hover:text-primary">
 										জাতীয়
 									</a>
 								</li>
 
 								<li>
 									<a
-										href="#বিশ্ব"
+										href="/category/world"
 										className="transition-colors hover:text-primary"
 									>
 										আন্তর্জাতিক
@@ -65,7 +62,7 @@ const Footer = () => {
 							<ul className="space-y-3 text-sm text-white/65">
 								<li>
 									<Link
-										href="/politics"
+										href="/category/politics"
 										className="transition-colors hover:text-primary"
 									>
 										রাজনীতি
@@ -74,7 +71,7 @@ const Footer = () => {
 
 								<li>
 									<Link
-										href="/sports"
+										href="/category/sports"
 										className="transition-colors hover:text-primary"
 									>
 										খেলাধুলা
@@ -83,7 +80,7 @@ const Footer = () => {
 
 								<li>
 									<Link
-										href="/technology"
+										href="/category/technology"
 										className="transition-colors hover:text-primary"
 									>
 										প্রযুক্তি
@@ -92,7 +89,7 @@ const Footer = () => {
 
 								<li>
 									<Link
-										href="/entertainment"
+										href="/category/economy"
 										className="transition-colors hover:text-primary"
 									>
 										অর্থনীতি
@@ -113,7 +110,7 @@ const Footer = () => {
 								href="mailto:info@example.com"
 								className="text-sm text-white transition-colors hover:text-primary"
 							>
-								info@example.com
+								news.direct@banglanewshub.com
 							</a>
 
 							{/* Social Links */}

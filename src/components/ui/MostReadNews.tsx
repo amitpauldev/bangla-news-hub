@@ -14,7 +14,7 @@ const MostReadNews = async () => {
 			<h2 className="text-xl font-bold">সর্বাধিক পঠিত</h2>
 			<div className="grid grid-cols-1 gap-1 mt-4">
 				{mostReadNews.map((news, index) => (
-					<Link key={news.id} href={news.link}>
+					<Link key={news.id} href={`/news/${news.id}`}>
 						<div className="grid grid-cols-12 gap-2 p-2 transition-colors duration-300 hover:bg-gray-200">
 							<span className="col-span-1 text-2xl font-semibold text-primary self-start">
 								{index + 1}
