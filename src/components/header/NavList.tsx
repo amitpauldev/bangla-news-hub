@@ -28,8 +28,8 @@ const NavList = ({
 				{filteredCategories.map((category) => (
 					<li key={category.slug} className="flex items-center">
 						<Link
-							href={category.slug}
-							className={`${pathname === category.slug ? "text-primary" : "text-dark"} hover:text-primary`}
+							href={`/category/${category.slug}`}
+							className={`${pathname.endsWith(category.slug) ? "text-primary" : "text-dark"} hover:text-primary`}
 						>
 							{category.title}
 						</Link>
