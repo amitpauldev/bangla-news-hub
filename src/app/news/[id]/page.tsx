@@ -4,7 +4,6 @@ const NewsDetails = async ({ params }: { params: Promise<{ id: string }> }) => {
 		next: { revalidate: 60 * 60 * 6 }, // revalidate every 6 hours
 	});
 	const data = await res.json();
-	console.log(data);
 
 	return <div>NewsDetails</div>;
 };

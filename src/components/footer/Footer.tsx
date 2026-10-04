@@ -110,7 +110,7 @@ const Footer = () => {
 								href="mailto:info@example.com"
 								className="text-sm text-white transition-colors hover:text-primary"
 							>
-								news.direct@banglanewshub.com
+								info@example.com
 							</a>
 
 							{/* Social Links */}
@@ -146,7 +146,8 @@ const Footer = () => {
 				{/* Bottom */}
 				<div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-white/50 sm:flex-row sm:items-center sm:justify-between">
 					<p>
-						© {new Date().getFullYear()} Bangla News Hub. সর্বস্বত্ব সংরক্ষিত।
+						© {new Date().getFullYear()} Amit Paul | Bangla News Hub. সর্বস্বত্ব
+						সংরক্ষিত।
 					</p>
 
 					<div className="flex gap-5">
