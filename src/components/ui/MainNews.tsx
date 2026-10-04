@@ -5,7 +5,7 @@ import Link from "next/link";
 const MainNews = ({ mainNews }: { mainNews: NewsType[] }) => {
 	return (
 		<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-			<NewsCard news={mainNews[0]} desc="line-clamp-3" />
+			<NewsCard news={mainNews[1]} desc="line-clamp-3" />
 
 			{/* Other News */}
 			<div className="h-full overflow-hidden rounded-xl border border-gray-200 bg-white">

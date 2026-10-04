@@ -17,6 +17,7 @@ const NewsCard = ({ news, desc }: Props) => {
 						src={news.imageUrl}
 						alt={news.imageAlt}
 						fill
+						sizes="200px"
 						className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
 					/>
 				</div>
