@@ -26,12 +26,32 @@ Bangla News Hub is a modern news platform designed to present Bangla news in a s
 
 ## 🛠️ Technologies Used
 
+### Frontend
+
 - **Next.js**
 - **React**
 - **TypeScript**
 - **Tailwind CSS**
+
+### Authentication
+
 - **Better Auth**
+
+### API & Data
+
+- **News API** — [news-api-v2.vercel.app](https://news-api-v2.vercel.app/)
+
+### Deployment
+
 - **Vercel**
+
+<!-- ## 🔗 API
+
+Bangla News Hub uses the following API to fetch news data:
+
+**News API:** [https://news-api-v2.vercel.app/](https://news-api-v2.vercel.app/)
+
+The API provides the news data displayed throughout the application, including news titles, descriptions, images, categories, and publication information. -->
 
 ## 📂 Project Structure
 
